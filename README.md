@@ -16,7 +16,8 @@ un navegador web.
 sin necesidad de crear un usuario
 https://mybinder.org/v2/gh/seys-fing/scripts/master
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/flecumberry/seys/master)
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/seys-fing/scripts/master)
 
 
 * También puede copiarse al entorno Colaboratory de Google y ejecutarlo
