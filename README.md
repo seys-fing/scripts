@@ -12,14 +12,12 @@ un navegador web.
 
 ## Qué es un Jupyter Notebook?
 
-Jupyter Notebook 
-
 Un "notebook" o "cuaderno" es un documento que contiene código
 ejecutable, texto enriquecido (Markup), figuras, enlaces, ecuaciones,
 etc. Debido a la combinación de elementos de código y texto, estos
 documentos permiten reunir la descripción y análisis de un programa o
 scripts, así como sus resultados y el análisis de datos en tiempo
-real. 
+real.
 
 La aplicación Jupyter Notebook produce estos documentos.
 
@@ -54,9 +52,11 @@ https://mybinder.org/v2/gh/seys-fing/scripts/master
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/seys-fing/scripts/master)
 
+Luego de cargado el servidor se muestra un conjunto de archivos. Los
+archivos de extensión ipynb son notebooks ejecutables, se abren
+haciendo click sobre ellos.
 
 * También puede copiarse al entorno Colaboratory de Google y ejecutarlo
 interactivamente desde ahí; se precisa un usuario de GMail. Para esto
 se puede seguir el enlace de "Open in Colab".
 
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/flecumberry/seys/blob/master/seys_simulacion_sistema.ipynb)
