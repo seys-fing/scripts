@@ -33,7 +33,7 @@ Para ejecutar un Jupyter Notebook es necesaria una aplicación corriendo en un s
 ### Opción 1
 Se puede acceder a los .ipynb de seys en GitHub y ejecutarlos de forma interactiva a través del siguiente enlace, sin necesidad de crear un usuario: https://mybinder.org/v2/gh/seys-fing/scripts/master.
 
-A través de ese enalce se accede a los .ipynb del repositorio GitHub de seys (GitHub y MyBinder están conectados). Desde allí pueden ejecutarse directamente. Una vez que cargue el servidor, se muestra el conjunto de archivos .ipynb de seys. Los archivos de extensión .ipynb son notebooks ejecutables, se abren haciendo click sobre ellos. Cuando el .ipynb que se eligió esté abierto en mybinder, se pueden elegir una celda y correr el escript en ella desde la barra de herramientas.
+A través de ese enalce se accede a los .ipynb del repositorio GitHub de seys (GitHub y MyBinder están conectados). Desde allí pueden ejecutarse directamente. Una vez que cargue el servidor, se muestra el conjunto de archivos .ipynb de seys. Los archivos de extensión .ipynb son notebooks ejecutables, se abren haciendo click sobre ellos. Cuando el .ipynb que se eligió esté abierto en mybinder, se pueden elegir una celda y correr el script en ella desde la barra de herramientas.
 
 ### Opción 2
 Desde el entorno de desarrollo [Colaboratory](https://colab.research.google.com/) puede seleccionarse GitHub, y abrir el GitHub de seys con el enlace https://github.com/seys-fing/scripts, donde aparecen los .ipynb de seys. Allí se ejecuta cada script presionando la flecha en el ángulo superior izquierdo de la celda.
