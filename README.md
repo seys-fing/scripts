@@ -24,43 +24,22 @@ La aplicación Jupyter Notebook produce estos documentos.
 
 ## Cómo ejecutarlos?
 
-Los notebooks están compuestos por celdas (cells) de dos tipos. Uno de
-los tipos de celdas es de código en algún lenguaje (Python 3 en
-nuestro caso). El otro tipo es texto enriquecido. Cada una de las
-celdas se puede ejecutar (run), en caso de ser una celda de código,
-este se interpreta y produce los resultados que en caso de ser
-necesario son desplegados (texto, gráficas, etc.). 
+Los notebooks están compuestos por celdas (cells) de dos tipos. Uno de los tipos de celdas es de código en algún lenguaje (Python 3 en nuestro caso). El otro tipo es texto enriquecido. Cada una de las celdas se puede ejecutar (run), en caso de ser una celda de código, este se interpreta y produce los resultados que en caso de ser necesario son desplegados (texto, gráficas, etc.). 
 
-Las celdas deben ejecutarse en el orden natural para que el código se
-vaya corriendo de forma correcta. Sin embargo, también es posible
-modificar una celda de código y volver a ejecutarla sin necesidad de
-volver a ejecutar una celda anterior. De esta forma se puede modificar
-algún parámetro y evaluar los cambios sin necesidad de ejecutar todo
-el código nuevamente.
+Las celdas deben ejecutarse en el orden natural para que el código se vaya corriendo de forma correcta. Sin embargo, también es posible modificar una celda de código y volver a ejecutarla sin necesidad de volver a ejecutar una celda anterior. De esta forma se puede modificar algún parámetro y evaluar los cambios sin necesidad de ejecutar todo el código nuevamente.
 
-Para ejecutar un Jupyter Notebook es necesaria una aplicación
-corriendo en un servidor. Esto se puede hacer con instalaciones
-locales de entornos Python, por ejemplo, Anaconda o Miniconda. Una
-forma de ejecutar los notebooks sin necesidad de instalar un entorno
-en un servidor propio es a través de servidores que permiten cargar y
-ejecutar notebooks de forma interactiva. Las siguientes dos opciones
-se presentan para correr los scripts que iremos haciendo públicos.
+Para ejecutar un Jupyter Notebook es necesaria una aplicación corriendo en un servidor. Una forma de ejecutar los notebooks sin necesidad de instalar un entorno en un servidor propio es a través de servidores que permiten cargar y ejecutar notebooks de forma interactiva. Las siguientes opciones permiten correr los scripts que iremos haciendo públicos.
 
-* Se puede ejecutar de forma interactiva a través del siguiente enlace
-sin necesidad de crear un usuario
-https://mybinder.org/v2/gh/seys-fing/scripts/master
+### Opción 1
+Se puede acceder a los .ipynb de seys en GitHub y ejecutarlos de forma interactiva a través del siguiente enlace, sin necesidad de crear un usuario: https://mybinder.org/v2/gh/seys-fing/scripts/master.
 
+A través de ese enalce se accede a los .ipynb del repositorio GitHub de seys (GitHub y MyBinder están conectados). Desde allí pueden ejecutarse directamente. Una vez que cargue el servidor, se muestra el conjunto de archivos .ipynb de seys. Los archivos de extensión .ipynb son notebooks ejecutables, se abren haciendo click sobre ellos. Cuando el .ipynb que se eligió esté abierto en mybinder, se pueden elegir una celda y correr el escript en ella desde la barra de herramientas.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/seys-fing/scripts/master)
+### Opción 2
+Desde el entorno de desarrollo [Colaboratory](https://colab.research.google.com/) puede seleccionarse GitHub, y abrir el GitHub de seys con el enlace https://github.com/seys-fing/scripts, donde aparecen los .ipynb de seys. Allí se ejecuta cada script presionando la flecha en el ángulo superior izquierdo de la celda.
 
-Luego de cargado el servidor se muestra un conjunto de archivos. Los
-archivos de extensión ipynb son notebooks ejecutables, se abren
-haciendo click sobre ellos. 
+El entorno Colaboratory pertenece a Google y para ejecutar un .ipynb interactivamente desde allí se precisa un usuario de GMail.
 
-* También pueden verse los archivos *.ipynb desde el GitHub
-seleccionándolos. En este caso los notebooks nos son ejecutables
-interactivamente, pero se les ofrece un link a través de una imagen
-para abrir el notebook en el entorno Colaboratory de Google y
-ejecutarlo interactivamente desde ahí; se precisa un usuario de
-GMail. Para esto se puede seguir el enlace de "Open in Colab"
-(![Colab](https://colab.research.google.com/assets/colab-badge.svg)).
+### Opción 3
+También pueden usarse instalaciones locales de entornos Python, por ejemplo, [Anaconda](https://www.anaconda.com/) o [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
+
