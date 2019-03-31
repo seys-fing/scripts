@@ -55,7 +55,7 @@ https://mybinder.org/v2/gh/seys-fing/scripts/master
 
 Luego de cargado el servidor se muestra un conjunto de archivos. Los
 archivos de extensión ipynb son notebooks ejecutables, se abren
-haciendo click sobre ellos.
+haciendo click sobre ellos. 
 
 * También pueden verse los archivos *.ipynb desde el GitHub
 seleccionándolos. En este caso los notebooks nos son ejecutables
