@@ -180,16 +180,17 @@ def zplane(z, p, filename=None):
     ax = plt.subplot(1,1,1)
     
     # Add unit circle and zero axes    
-    unit_circle = patches.Circle((0,0), radius=1, fill=False, color='black', ls='solid', alpha=0.5)
+    unit_circle = patches.Circle((0,0), radius=1, fill=False, color='black', ls='dashed', alpha=0.5)
     ax.add_patch(unit_circle)
     axvline(0, color='0.7')
     axhline(0, color='0.7')    
     
     # Plot the poles and set marker properties
-    poles = plt.plot(p.real, p.imag, 'x', markersize=7)
+    poles = plt.plot(p.real, p.imag, 'rx', markersize=7)
     
     # Plot the zeros and set marker properties
-    zeros = plt.plot(z.real, z.imag,  'o', markersize=7, color='none', markeredgecolor=poles[0].get_color())
+    zeros = plt.plot(z.real, z.imag,  'go', markersize=7)
+    # , color='none', markeredgecolor=poles[0].get_color())
     
     # Scale axes to fit
     r = 1.5 * np.amax(np.concatenate((abs(z), abs(p), [1])))
