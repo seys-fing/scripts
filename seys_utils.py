@@ -9,7 +9,7 @@ from matplotlib import patches
 from matplotlib.pyplot import axvline, axhline
 from collections import defaultdict
 
-signal_fig_size = (9.5,4)
+signal_fig_size = (10,4)
 fourier_fig_size = signal_fig_size
 # fourier_fig_size = (18,4)
 
